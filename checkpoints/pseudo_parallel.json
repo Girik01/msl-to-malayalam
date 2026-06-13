@@ -1,0 +1,868 @@
+[
+  {
+    "gloss": [
+      "Hello"
+    ],
+    "english": "Hello",
+    "malayalam": "ഹലോ"
+  },
+  {
+    "gloss": [
+      "Hello",
+      "Welcome"
+    ],
+    "english": "Hello welcome",
+    "malayalam": "ഹലോ സ്വാഗതം"
+  },
+  {
+    "gloss": [
+      "Hello",
+      "How"
+    ],
+    "english": "Hello how are you",
+    "malayalam": "ഹലോ, നിങ്ങൾക്ക് സുഖമാണോ"
+  },
+  {
+    "gloss": [
+      "Thank",
+      "You"
+    ],
+    "english": "Thank you",
+    "malayalam": "നന്ദി"
+  },
+  {
+    "gloss": [
+      "Bye"
+    ],
+    "english": "Goodbye",
+    "malayalam": "വിട"
+  },
+  {
+    "gloss": [
+      "Good"
+    ],
+    "english": "Good",
+    "malayalam": "നല്ലത്"
+  },
+  {
+    "gloss": [
+      "Happy"
+    ],
+    "english": "Happy",
+    "malayalam": "സന്തോഷം"
+  },
+  {
+    "gloss": [
+      "I",
+      "Go"
+    ],
+    "english": "I go",
+    "malayalam": "ഞാൻ പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Come"
+    ],
+    "english": "I come",
+    "malayalam": "ഞാൻ വരുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Eat"
+    ],
+    "english": "I eat",
+    "malayalam": "ഞാൻ കഴിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Work"
+    ],
+    "english": "I work",
+    "malayalam": "ഞാൻ ജോലിചെയ്യുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Learn"
+    ],
+    "english": "I learn",
+    "malayalam": "ഞാൻ പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Study"
+    ],
+    "english": "I study",
+    "malayalam": "ഞാൻ പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Walk"
+    ],
+    "english": "I walk",
+    "malayalam": "ഞാൻ നടക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Talk"
+    ],
+    "english": "I talk",
+    "malayalam": "ഞാൻ സംസാരിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Sing"
+    ],
+    "english": "I sing",
+    "malayalam": "ഞാൻ പാടുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Laugh"
+    ],
+    "english": "I laugh",
+    "malayalam": "ഞാൻ ചിരിച്ചു"
+  },
+  {
+    "gloss": [
+      "I",
+      "See"
+    ],
+    "english": "I see",
+    "malayalam": "ഞാൻ മനസിലാക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Know"
+    ],
+    "english": "I know",
+    "malayalam": "എനിക്കറിയാം"
+  },
+  {
+    "gloss": [
+      "You",
+      "Go"
+    ],
+    "english": "You go",
+    "malayalam": "നിങ്ങൾക്ക് പോകാം"
+  },
+  {
+    "gloss": [
+      "You",
+      "Come"
+    ],
+    "english": "You come",
+    "malayalam": "നീ വരൂ"
+  },
+  {
+    "gloss": [
+      "You",
+      "Eat"
+    ],
+    "english": "You eat",
+    "malayalam": "നിങ്ങൾ കഴിക്കൂ"
+  },
+  {
+    "gloss": [
+      "You",
+      "Work"
+    ],
+    "english": "You work",
+    "malayalam": "നിങ്ങൾ ജോലി ചെയ്യുക"
+  },
+  {
+    "gloss": [
+      "You",
+      "Learn"
+    ],
+    "english": "You learn",
+    "malayalam": "നീ പഠിക്ക്"
+  },
+  {
+    "gloss": [
+      "You",
+      "Study"
+    ],
+    "english": "You study",
+    "malayalam": "നീ പഠിക്ക്"
+  },
+  {
+    "gloss": [
+      "You",
+      "Talk"
+    ],
+    "english": "You talk",
+    "malayalam": "നിങ്ങൾ സംസാരിക്കൂ"
+  },
+  {
+    "gloss": [
+      "You",
+      "See"
+    ],
+    "english": "You see",
+    "malayalam": "നീ കാണുക"
+  },
+  {
+    "gloss": [
+      "You",
+      "Know"
+    ],
+    "english": "You know",
+    "malayalam": "നിനക്കറിയാം"
+  },
+  {
+    "gloss": [
+      "I",
+      "Go",
+      "Home"
+    ],
+    "english": "I go home",
+    "malayalam": "ഞാൻ വീട്ടിലേക്ക് പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Go",
+      "College"
+    ],
+    "english": "I go to college",
+    "malayalam": "ഞാൻ കോളേജിൽ പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "You",
+      "Go",
+      "Home"
+    ],
+    "english": "You go home",
+    "malayalam": "നീ വീട്ടിൽ പൊയ്ക്കോ"
+  },
+  {
+    "gloss": [
+      "I",
+      "Come",
+      "Home"
+    ],
+    "english": "I come home",
+    "malayalam": "ഞാൻ വീട്ടിൽ വരുന്നു"
+  },
+  {
+    "gloss": [
+      "We",
+      "Go",
+      "College"
+    ],
+    "english": "We go to college",
+    "malayalam": "ഞങ്ങൾ കോളേജിൽ പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Study",
+      "Language"
+    ],
+    "english": "I study language",
+    "malayalam": "ഞാൻ ഭാഷ പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Learn",
+      "Sign"
+    ],
+    "english": "I learn sign language",
+    "malayalam": "ഞാൻ ആംഗ്യഭാഷ പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "You",
+      "Learn",
+      "Sign"
+    ],
+    "english": "You learn sign language",
+    "malayalam": "നിങ്ങൾ ആംഗ്യഭാഷ പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "Now",
+      "Go"
+    ],
+    "english": "Go now",
+    "malayalam": "ഇപ്പോൾ പോകൂ"
+  },
+  {
+    "gloss": [
+      "Now",
+      "Come"
+    ],
+    "english": "Come now",
+    "malayalam": "ഇപ്പോൾ വരൂ"
+  },
+  {
+    "gloss": [
+      "After",
+      "Come"
+    ],
+    "english": "Come after",
+    "malayalam": "പിന്നാലെ വരൂ"
+  },
+  {
+    "gloss": [
+      "Before",
+      "Go"
+    ],
+    "english": "Go before",
+    "malayalam": "മുമ്പേ പോകൂ"
+  },
+  {
+    "gloss": [
+      "Again",
+      "Come"
+    ],
+    "english": "Come again",
+    "malayalam": "വീണ്ടും വരൂ"
+  },
+  {
+    "gloss": [
+      "Again",
+      "Do"
+    ],
+    "english": "Do again",
+    "malayalam": "വീണ്ടും ചെയ്യുക"
+  },
+  {
+    "gloss": [
+      "Next",
+      "Day"
+    ],
+    "english": "Next day",
+    "malayalam": "അടുത്ത ദിവസം"
+  },
+  {
+    "gloss": [
+      "Next",
+      "Time"
+    ],
+    "english": "Next time",
+    "malayalam": "അടുത്ത തവണ"
+  },
+  {
+    "gloss": [
+      "Do Not",
+      "Go"
+    ],
+    "english": "Do not go",
+    "malayalam": "പോകരുത്"
+  },
+  {
+    "gloss": [
+      "Do Not",
+      "Come"
+    ],
+    "english": "Do not come",
+    "malayalam": "വരരുത്"
+  },
+  {
+    "gloss": [
+      "Do Not",
+      "Talk"
+    ],
+    "english": "Do not talk",
+    "malayalam": "സംസാരിക്കരുത്"
+  },
+  {
+    "gloss": [
+      "Cannot",
+      "Come"
+    ],
+    "english": "Cannot come",
+    "malayalam": "വരാൻ പറ്റില്ല"
+  },
+  {
+    "gloss": [
+      "Not",
+      "Good"
+    ],
+    "english": "Not good",
+    "malayalam": "നല്ലതല്ല"
+  },
+  {
+    "gloss": [
+      "Not",
+      "Happy"
+    ],
+    "english": "Not happy",
+    "malayalam": "സന്തോഷമില്ല"
+  },
+  {
+    "gloss": [
+      "Wrong"
+    ],
+    "english": "Wrong",
+    "malayalam": "തെറ്റ്"
+  },
+  {
+    "gloss": [
+      "Does Not"
+    ],
+    "english": "Does not",
+    "malayalam": "ഇല്ല"
+  },
+  {
+    "gloss": [
+      "What"
+    ],
+    "english": "What",
+    "malayalam": "എന്ത്"
+  },
+  {
+    "gloss": [
+      "Who"
+    ],
+    "english": "Who",
+    "malayalam": "WHO"
+  },
+  {
+    "gloss": [
+      "Where"
+    ],
+    "english": "Where",
+    "malayalam": "എവിടെ"
+  },
+  {
+    "gloss": [
+      "When"
+    ],
+    "english": "When",
+    "malayalam": "എപ്പോൾ"
+  },
+  {
+    "gloss": [
+      "Why"
+    ],
+    "english": "Why",
+    "malayalam": "എന്തിന്"
+  },
+  {
+    "gloss": [
+      "How"
+    ],
+    "english": "How",
+    "malayalam": "എങ്ങനെ"
+  },
+  {
+    "gloss": [
+      "Which"
+    ],
+    "english": "Which",
+    "malayalam": "ഏത്"
+  },
+  {
+    "gloss": [
+      "What",
+      "Name"
+    ],
+    "english": "What is your name",
+    "malayalam": "എന്താണ് നിന്റെ പേര്"
+  },
+  {
+    "gloss": [
+      "Where",
+      "Go"
+    ],
+    "english": "Where are you going",
+    "malayalam": "നിങ്ങൾ എവിടെ പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "When",
+      "Come"
+    ],
+    "english": "When will you come",
+    "malayalam": "എപ്പോൾ വരും"
+  },
+  {
+    "gloss": [
+      "My",
+      "Name"
+    ],
+    "english": "My name",
+    "malayalam": "എന്റെ പേര്"
+  },
+  {
+    "gloss": [
+      "My",
+      "Home"
+    ],
+    "english": "My home",
+    "malayalam": "എൻ്റെ വീട്"
+  },
+  {
+    "gloss": [
+      "My",
+      "College"
+    ],
+    "english": "My college",
+    "malayalam": "എൻ്റെ കോളേജ്"
+  },
+  {
+    "gloss": [
+      "My",
+      "Work"
+    ],
+    "english": "My work",
+    "malayalam": "എൻ്റെ ജോലി"
+  },
+  {
+    "gloss": [
+      "I",
+      "Happy"
+    ],
+    "english": "I am happy",
+    "malayalam": "ഞാൻ സന്തോഷവാനാണ്"
+  },
+  {
+    "gloss": [
+      "I",
+      "Sad"
+    ],
+    "english": "I am sad",
+    "malayalam": "ഞാൻ ദുഃഖിതനാണ്"
+  },
+  {
+    "gloss": [
+      "I",
+      "Safe"
+    ],
+    "english": "I am safe",
+    "malayalam": "ഞാൻ സുരക്ഷിതനാണ്"
+  },
+  {
+    "gloss": [
+      "I",
+      "Busy"
+    ],
+    "english": "I am busy",
+    "malayalam": "ഞാൻ തിരക്കിലാണ്"
+  },
+  {
+    "gloss": [
+      "You",
+      "Happy"
+    ],
+    "english": "You are happy",
+    "malayalam": "നിങ്ങൾ സന്തോഷവാനാണ്"
+  },
+  {
+    "gloss": [
+      "We",
+      "Work"
+    ],
+    "english": "We work",
+    "malayalam": "ഞങ്ങൾ പ്രവർത്തിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "We",
+      "Learn"
+    ],
+    "english": "We learn",
+    "malayalam": "ഞങ്ങൾ പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "We",
+      "Go"
+    ],
+    "english": "We go",
+    "malayalam": "ഞങ്ങൾ പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "They",
+      "Come"
+    ],
+    "english": "They come",
+    "malayalam": "അവർ വരുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Go",
+      "College",
+      "Now"
+    ],
+    "english": "I go to college now",
+    "malayalam": "ഞാൻ ഇപ്പോൾ കോളേജിൽ പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "You",
+      "Come",
+      "Home",
+      "After"
+    ],
+    "english": "You come home after",
+    "malayalam": "നീ കഴിഞ്ഞ് വീട്ടിലേക്ക് വാ"
+  },
+  {
+    "gloss": [
+      "We",
+      "Learn",
+      "Sign",
+      "Language"
+    ],
+    "english": "We learn sign language",
+    "malayalam": "ഞങ്ങൾ ആംഗ്യഭാഷ പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Work",
+      "College"
+    ],
+    "english": "I work at college",
+    "malayalam": "ഞാൻ കോളേജിൽ ജോലി ചെയ്യുന്നു"
+  },
+  {
+    "gloss": [
+      "Do Not",
+      "Go",
+      "Now"
+    ],
+    "english": "Do not go now",
+    "malayalam": "ഇപ്പോൾ പോകരുത്"
+  },
+  {
+    "gloss": [
+      "What",
+      "You",
+      "Do"
+    ],
+    "english": "What do you do",
+    "malayalam": "നീ എന്ത് ചെയ്യുന്നു"
+  },
+  {
+    "gloss": [
+      "Where",
+      "You",
+      "Go"
+    ],
+    "english": "Where are you going",
+    "malayalam": "നിങ്ങൾ എവിടെ പോകുന്നു"
+  },
+  {
+    "gloss": [
+      "How",
+      "You",
+      "Come"
+    ],
+    "english": "How will you come",
+    "malayalam": "എങ്ങനെ വരും"
+  },
+  {
+    "gloss": [
+      "I",
+      "See",
+      "You"
+    ],
+    "english": "I see you",
+    "malayalam": "ഞാൻ നിന്നെ കാണുന്നു"
+  },
+  {
+    "gloss": [
+      "You",
+      "See",
+      "Me"
+    ],
+    "english": "You see me",
+    "malayalam": "നീ എന്നെ കാണുക"
+  },
+  {
+    "gloss": [
+      "I",
+      "Talk",
+      "You"
+    ],
+    "english": "I talk to you",
+    "malayalam": "ഞാൻ നിന്നോട് സംസാരിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "We",
+      "Study",
+      "Together"
+    ],
+    "english": "We study together",
+    "malayalam": "ഞങ്ങൾ ഒരുമിച്ച് പഠിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "I",
+      "Come",
+      "Again"
+    ],
+    "english": "I will come again",
+    "malayalam": "ഞാൻ വീണ്ടും വരും"
+  },
+  {
+    "gloss": [
+      "You",
+      "Go",
+      "Safe"
+    ],
+    "english": "You go safely",
+    "malayalam": "നിങ്ങൾ സുരക്ഷിതമായി പോകൂ"
+  },
+  {
+    "gloss": [
+      "Come",
+      "Home",
+      "Now"
+    ],
+    "english": "Come home now",
+    "malayalam": "ഇപ്പോൾ വീട്ടിലേക്ക് വരൂ"
+  },
+  {
+    "gloss": [
+      "Go",
+      "College",
+      "After"
+    ],
+    "english": "Go to college after",
+    "malayalam": "ശേഷം കോളേജിൽ പോകണം"
+  },
+  {
+    "gloss": [
+      "I",
+      "Stay",
+      "Home"
+    ],
+    "english": "I stay at home",
+    "malayalam": "ഞാൻ വീട്ടിൽ തന്നെ ഇരിക്കും"
+  },
+  {
+    "gloss": [
+      "I",
+      "Finish",
+      "Work"
+    ],
+    "english": "I finish work",
+    "malayalam": "ഞാൻ ജോലി പൂർത്തിയാക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "You",
+      "Finish",
+      "Study"
+    ],
+    "english": "You finish studying",
+    "malayalam": "നീ പഠനം പൂർത്തിയാക്കൂ"
+  },
+  {
+    "gloss": [
+      "I",
+      "Change",
+      "Way"
+    ],
+    "english": "I change my way",
+    "malayalam": "ഞാൻ എൻ്റെ വഴി മാറ്റുന്നു"
+  },
+  {
+    "gloss": [
+      "Best",
+      "Way"
+    ],
+    "english": "Best way",
+    "malayalam": "മികച്ച വഴി"
+  },
+  {
+    "gloss": [
+      "Right",
+      "Way"
+    ],
+    "english": "Right way",
+    "malayalam": "ശരിയായ വഴി"
+  },
+  {
+    "gloss": [
+      "I",
+      "Ask",
+      "You"
+    ],
+    "english": "I ask you",
+    "malayalam": "ഞാൻ നിങ്ങളോട് ചോദിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "You",
+      "Ask",
+      "Me"
+    ],
+    "english": "You ask me",
+    "malayalam": "നിങ്ങൾ എന്നോട് ചോദിക്കൂ"
+  },
+  {
+    "gloss": [
+      "I",
+      "Keep",
+      "Safe"
+    ],
+    "english": "I keep safe",
+    "malayalam": "ഞാൻ സുരക്ഷിതമായി സൂക്ഷിക്കുന്നു"
+  },
+  {
+    "gloss": [
+      "Stay",
+      "Safe"
+    ],
+    "english": "Stay safe",
+    "malayalam": "സുരക്ഷിതമായിരിക്കുക"
+  },
+  {
+    "gloss": [
+      "I",
+      "Love",
+      "Sign",
+      "Language"
+    ],
+    "english": "I love sign language",
+    "malayalam": "എനിക്ക് ആംഗ്യഭാഷ ഇഷ്ടമാണ്"
+  },
+  {
+    "gloss": [
+      "Sign",
+      "Language",
+      "Good"
+    ],
+    "english": "Sign language is good",
+    "malayalam": "ആംഗ്യഭാഷ നല്ലതാണ്"
+  },
+  {
+    "gloss": [
+      "Learn",
+      "Sign",
+      "Language"
+    ],
+    "english": "Learn sign language",
+    "malayalam": "ആംഗ്യഭാഷ പഠിക്കുക"
+  },
+  {
+    "gloss": [
+      "Sign",
+      "Language",
+      "Beautiful"
+    ],
+    "english": "Sign language is beautiful",
+    "malayalam": "ആംഗ്യഭാഷ മനോഹരമാണ്"
+  }
+]

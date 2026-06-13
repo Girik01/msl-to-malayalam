@@ -1,0 +1,6 @@
+torch
+torchvision
+mediapipe
+opencv-python
+deep-translator
+numpy
