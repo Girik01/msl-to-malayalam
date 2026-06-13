@@ -148,10 +148,6 @@ python train.py --stage 2 # Stage 2 only: CSAM + decoder
 - MediaPipe landmark detection rate: **100%** (real photographs)
 - Stage 1 validation accuracy: **~99%**
 
-### Why only Sahaayi?
-
-Other available datasets (ISL animated videos) use 3D avatar/cartoon hands. MediaPipe was trained on real human hands and detects landmarks unreliably on animated hands. Sahaayi provides real photographs, giving clean and reliable landmark features.
-
 ---
 
 ## Performance
