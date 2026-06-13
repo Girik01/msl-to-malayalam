@@ -14,6 +14,7 @@ os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
 import cv2, time, argparse, torch, numpy as np
 from collections import deque
 
+import urllib.request
 import mediapipe as mp
 from mediapipe.tasks import python as mp_python
 from mediapipe.tasks.python import vision as mp_vision
@@ -23,6 +24,16 @@ from model import SignToMalayalam
 
 BASE     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LM_FILE  = os.path.join(BASE, "poc", "hand_landmarker.task")
+
+_LM_URL = ("https://storage.googleapis.com/mediapipe-models/"
+           "hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task")
+
+def _ensure_landmarker():
+    if not os.path.exists(LM_FILE):
+        os.makedirs(os.path.dirname(LM_FILE), exist_ok=True)
+        print(f"Downloading hand_landmarker.task ...")
+        urllib.request.urlretrieve(_LM_URL, LM_FILE)
+        print("Downloaded.")
 DEVICE   = torch.device("cpu")
 
 GLOSS2IDX = {c: i for i, c in enumerate(GLOSS_CLASSES)}
@@ -95,6 +106,7 @@ class GlossBuffer:
 
 
 def run(model_path):
+    _ensure_landmarker()
     ckpt  = torch.load(model_path, map_location=DEVICE)
     model = SignToMalayalam(n_gloss=len(GLOSS_CLASSES), n_mal=len(MAL_TOKENS))
     model.load_state_dict(ckpt["model"])
