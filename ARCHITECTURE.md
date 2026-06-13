@@ -392,3 +392,51 @@ Display on HUD
 | (8) | G = {g₁, …, gM} | `inference.py` — `GlossBuffer.words` |
 | (9) | G′ = f_align(G) | `model.py` — `CSAM.forward` |
 | III-G | Autoregressive decoder | `model.py` — `MalayalamDecoder.forward`, `translate` |
+
+---
+
+## 12. Future Scope
+
+### 12.1 Continuous Sentence Translation
+
+The current inference pipeline uses a single-tier gloss buffer — signs accumulate and the full buffer is translated after a silence gap. A two-tier buffer would enable real-time sentence-level translation:
+
+```
+Sign predictions
+      │
+      ▼ short pause (~1.5 s)
+  Word committed  →  word buffer
+      │
+      ▼ long pause (~4 s)
+  Sentence complete  →  model.translate()  →  Malayalam
+```
+
+- **Letter buffer** — accumulates individual alphabet signs into a word during fingerspelling
+- **Word buffer** — accumulates committed words into a full sentence
+- **Translation trigger** — fires when no new word is added for ~4 seconds
+
+No changes to the model architecture are required. The transformer decoder already handles variable-length gloss sequences. Only the buffering logic in `inference.py` needs to be extended.
+
+### 12.2 Word-Level MSL Vocabulary
+
+The Sahaayi dataset covers the MSL alphabet (61 fingerspelling classes). Adding a word-level MSL dataset would allow the GlossHead to predict complete word signs directly as gloss tokens — removing the need for fingerspelling and producing more natural sentence flow. The `n_gloss` parameter in `SignToMalayalam` is configurable; the architecture scales to any vocabulary size.
+
+### 12.3 Multi-Signer Training Data
+
+Sahaayi contains images from a single signer under controlled conditions. Collecting data from multiple signers with varied lighting, backgrounds, and hand sizes would improve generalization. The landmark-based feature representation already provides some robustness (skeleton is person-invariant), but classifier boundaries learned from one signer may not transfer perfectly.
+
+### 12.4 Larger Pseudo-Parallel Corpus
+
+Stage 2 translation quality is directly proportional to the number of gloss→Malayalam training pairs. The current 31 pairs cover basic phrases. Expanding to several hundred pairs — or collecting manually annotated gloss→Malayalam sentence data — would produce significantly more fluent Malayalam output without any change to the decoder architecture.
+
+### 12.5 Formal Evaluation Metrics
+
+Quantitative evaluation using standard NLP metrics:
+
+| Metric | What it measures |
+|---|---|
+| BLEU | N-gram overlap between generated and reference Malayalam |
+| ROUGE | Recall-oriented overlap for translation completeness |
+| WER (Word Error Rate) | Word-level accuracy of the generated sentence |
+
+These metrics would allow direct comparison with CNN-LSTM baselines and other sign language translation systems.

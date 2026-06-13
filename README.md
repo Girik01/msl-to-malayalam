@@ -177,3 +177,28 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the full technical documentation incl
 2. **Small translation corpus** — 31 pseudo-parallel pairs; decoder output is limited to trained phrase patterns
 3. **MSL alphabet only** — word-level MSL signs are not included (no public dataset exists)
 4. **Continuous signing** — system recognizes one sign at a time with pause-based segmentation
+
+---
+
+## Future Scope
+
+### Continuous Sentence Translation
+The current system accumulates individual sign predictions and translates after a silence gap. A natural extension is a **two-tier buffer** for real-time sentence building:
+
+```
+Signs → Letters (fingerspelling) → Word (short pause ~1.5s) → Sentence (long pause ~4s) → Malayalam
+```
+
+This would allow a user to fingerspell full sentences continuously without stopping — each short pause commits a word, each long pause triggers translation of the full sentence. The transformer decoder already supports variable-length gloss sequences, so no architectural change is needed — only the inference buffering logic.
+
+### Word-Level MSL Dataset
+The Sahaayi dataset covers only the MSL alphabet (61 classes). A word-level MSL dataset would allow the model to recognize complete word signs directly as gloss tokens, producing more natural translations without fingerspelling. The pipeline is already designed to accommodate a larger gloss vocabulary.
+
+### Multi-Signer Generalization
+Training data collected from multiple signers with varied lighting and backgrounds would significantly improve real-world accuracy beyond the controlled Sahaayi lab setting.
+
+### Larger Pseudo-Parallel Corpus
+Stage 2 translation quality scales directly with the number of gloss→Malayalam sentence pairs. Expanding from 31 to several hundred pairs — or collecting actual annotated data — would produce noticeably more fluent Malayalam output from the existing decoder architecture.
+
+### BLEU / WER Evaluation
+Formal evaluation using BLEU, ROUGE, and Word Error Rate metrics on a held-out gloss→Malayalam test set would quantify translation quality and allow comparison with baseline approaches.
